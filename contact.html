@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="styles.css" />
+  <title>Web Design Mastery | Responsive Portfolio</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">Ramees</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a  href="about.html">About</a></li>
+       
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+</nav>
+
+    <div class="wrap">
+        <form class="form">
+          <div class="pageTitle title"> </div>
+          <div class="secondaryTitle title">Keep in Touch</div>
+          <input type="text" class="name formEntry" id="formName" placeholder="Name" required />
+          <input type="text" class="email formEntry" id="formEmail" placeholder="Email" required/>
+          <textarea class="message formEntry" id="formMessage" placeholder="Message" required></textarea>
+          <input type="checkbox" class="termsConditions" value="Term" >
+          <label style="color: grey" for="terms"> I Accept the <span style="color: red">Terms of Use</span> & <span style="color: red">Privacy Policy</span>.</label><br>
+          <button type="button" class="submit formEntry" onclick="thanks()">Submit</button>
+        </form>
+      </div>
+
+      <!-- FOOTER  -->
+
+
+      <section class="sect">
+        <footer class="footer">
+          <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+          </div>
+          <h4>Services</h4>
+          <ul class="menulist">
+            <li>Web designing</li>
+            <li>Frontend Development</li>
+            <li>Backend Development</li>
+            <li>Hosting</li>
+            <li>Maintenance</li>
+    
+    
+          </ul>
+          <span class="last">&copy;2024 Personal portFolio| All Rights Reserved</span>
+        </footer>
+      </section>
+
+
+    
+    <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+
+  </html>
+  
